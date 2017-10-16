@@ -1,4 +1,4 @@
-# Copyright 2017 Andrew Darrohn
+# Copyright (C) 2017 Andrew Darrohn - All Rights Reserved
 
 twitter_consumer_key = 'j8nSCDVFGVBW756Oo2Ce0EcHP'
 twitter_consumer_secret = '8hPUVyeeOaK0dBhPb3PjaTox2x1MYdYvTLNYqXZrI7bDluMrRF'

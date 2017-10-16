@@ -1,4 +1,4 @@
-# Copyright 2017 Andrew Darrohn
+# Copyright (C) 2017 Andrew Darrohn - All Rights Reserved
 
 import time
 import json
