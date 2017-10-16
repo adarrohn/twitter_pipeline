@@ -1,0 +1,9 @@
+# unittests / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+.idea
+__pycache__
+*.pyc
+*.log
