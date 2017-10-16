@@ -1,3 +1,5 @@
+# Copyright 2017 Andrew Darrohn
+
 twitter_consumer_key = 'j8nSCDVFGVBW756Oo2Ce0EcHP'
 twitter_consumer_secret = '8hPUVyeeOaK0dBhPb3PjaTox2x1MYdYvTLNYqXZrI7bDluMrRF'
 twitter_access_token = '918368475902562305-qKrRDmO31OIXZNmrBLEYM8vFzkBeuC4'
