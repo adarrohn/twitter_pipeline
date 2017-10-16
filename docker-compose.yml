@@ -2,10 +2,14 @@ version: '3'
 services:
   zookeeper:
     image: jplock/zookeeper
+    networks:
+      - crypto
     ports:
       - "2181:2181"
   kafka:
     image: ches/kafka
+    networks:
+      - crypto
     ports:
       - "9092:9092"
       - "7203:7203"
@@ -17,6 +21,8 @@ services:
       ZOOKEEPER_CONNECTION_STRING: zookeeper:2181
   producer:
     build: producer
+    networks:
+      - crypto
     ports:
      - "9000:9000"
     links:
@@ -25,9 +31,19 @@ services:
       - kafka
   consumer:
     build: consumer
+    networks:
+      - crypto
     ports:
       - "9001:9001"
     links:
       - kafka
     depends_on:
       - kafka
+    volumes:
+      - consumer:/usr/local/data/consumer
+
+volumes:
+  consumer:
+
+networks:
+  crypto:
