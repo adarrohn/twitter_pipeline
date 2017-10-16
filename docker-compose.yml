@@ -40,7 +40,7 @@ services:
     depends_on:
       - kafka
     volumes:
-      - consumer:/usr/local/data/consumer
+      - /tmp/consumer:/usr/local/data/consumer
 
 volumes:
   consumer:
